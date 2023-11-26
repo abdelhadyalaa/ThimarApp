@@ -30,22 +30,22 @@ class _HomePageState extends State<HomePage> {
         id: 0,
         text: "الخضار",
         image:
-            "https://avatars.mds.yandex.net/i?id=d88cd7c2346ae39dd9de80a33f51dbea-5317911-images-thumbs&n=13"),
+            "https://www.hasanbabamanav.com/Files/bg-crm-program-8469-15-04-2021-12-53-37.png"),
     MyCategory(
         id: 1,
         text: "الفواكه",
         image:
-            "https://w.forfun.com/fetch/aa/aa8212667038eeb06e52ff485d02136f.jpeg?w=1470&r=0.5625"),
+            "https://www.pngarts.com/files/3/Fruit-PNG-Image-With-Transparent-Background.png"),
     MyCategory(
         id: 2,
         text: "اللحوم",
         image:
-            "https://gabbismeats.co.za/wp-content/uploads/2020/03/3209-scaled.jpg"),
+            "https://www.downloadclipart.net/large/beef-meat-png-image.png"),
     MyCategory(
         id: 3,
         text: "البهارات",
         image:
-            "https://wallpapers.com/images/featured-full/spices-4pngw1qa0xj352zc.jpg"),
+            "https://cdn.salla.sa/RWeY/VrHmvA1avz4momBn8YVL0nEwnOm9gnhnYv39JYxa.png"),
     MyCategory(
         id: 4,
         text: "التمور",
@@ -208,8 +208,8 @@ class _HomePageState extends State<HomePage> {
                           padding: EdgeInsets.all(9),
                           clipBehavior: Clip.antiAlias,
                           decoration: BoxDecoration(
-                              color: Color(0xffa12cff * (index + 30))
-                                  .withOpacity(.5),
+                              color: Color(0xffa13cff * (index + 10))
+                                  .withOpacity(.2),
                               borderRadius: BorderRadius.circular(10.r)),
                           child: Image.network(
                             kinds[index].image,

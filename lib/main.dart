@@ -6,10 +6,13 @@ import 'package:thimar/screens/home/pages/notifications/view.dart';
 import 'package:thimar/screens/main_screen/all_progress_paid/view.dart';
 import 'package:thimar/screens/main_screen/cart/view.dart';
 import 'package:thimar/screens/main_screen/paid%20now/view.dart';
+import 'package:thimar/screens/profile/pages/faqs/view.dart';
 import 'package:thimar/screens/splash/view.dart';
 
 import 'core/design/castama/navigation.dart';
 import 'core/design/res/colors.dart';
+import 'screens/home/pages/my_orders/view.dart';
+import 'screens/profile/pages/paying_off/view.dart';
 
 void main() {
   runApp(const MyApp());
@@ -46,6 +49,10 @@ class MyApp extends StatelessWidget {
                 hintColor: Color(0xff808080)),
             home: PageView(
               children: [
+
+                FAQsPage(),
+                // HomePage(),
+                // MyOrdersPage(),
                 // PayNowScreen(),
                 // CartScreen(),
                 // MyAccountPage(),
@@ -54,7 +61,7 @@ class MyApp extends StatelessWidget {
 
                 // MyAccountPage(),
                 // NotificationsPage(),
-                SplashScreen(),
+                // SplashScreen(),
                 // CartScreen(),
                 // TagrobaScreen(),
               ],
